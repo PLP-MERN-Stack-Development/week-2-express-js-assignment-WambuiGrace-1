@@ -89,6 +89,8 @@ node server.js - for start mode
 
 The server runs on port 3000 by default (http://localhost:3000) or the port specified in the environment variables.
 
+To test the API you need to bypass the auth.js authentication
+
 ## Error Handling
 
 The application implements centralized error handling through Express's error middleware, providing consistent error responses with appropriate status codes and messages.
